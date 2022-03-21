@@ -1,0 +1,14 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "UJA-SoftPack database",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "Diego Barrales Castillo",
+    "license": "ISC",
+    "dependencies": {
+        "json-server": "^0.17.0"
+    }
+}
