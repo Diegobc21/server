@@ -1,0 +1,81 @@
+{
+    "software": [{
+            "id": 1,
+            "name": "Apache Netbeans 12.2",
+            "description": "NetBeans es un entorno de desarrollo integrado libre, hecho principalmente para el lenguaje de programación Java.",
+            "category": "ide",
+            "os": [{
+                    "type": "Windows",
+                    "arch": "x64",
+                    "download": "https://archive.apache.org/dist/netbeans/netbeans/12.2/Apache-NetBeans-12.2-bin-windows-x64.exe"
+                },
+                {
+                    "type": "Linux",
+                    "download": "https://archive.apache.org/dist/netbeans/netbeans/12.2/Apache-NetBeans-12.2-bin-linux-x64.sh"
+                },
+                {
+                    "type": "macOS",
+                    "download": "https://archive.apache.org/dist/netbeans/netbeans/12.2/Apache-NetBeans-12.2-bin-macosx.dmg"
+                }
+            ],
+            "resources": [{
+                    "name": "Más información",
+                    "website": "https://netbeans.apache.org/download/nb122/nb122.html"
+                },
+                {
+                    "name": "Cygwin",
+                    "website": "https://www.cygwin.com/"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Visual Studio Code",
+            "description": "Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows, Linux, macOS y Web. Incluye soporte para la depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código.",
+            "category": "ide",
+            "os": [{
+                    "type": "Windows",
+                    "arch": "x64 & x32",
+                    "download": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"
+                },
+                {
+                    "type": "macOS",
+                    "download": "https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal"
+                },
+                {
+                    "type": "Linux",
+                    "download": "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
+                }
+            ],
+            "resources": [{
+                "name": "Más información",
+                "website": "https://code.visualstudio.com/docs"
+            }]
+        },
+        {
+            "id": 3,
+            "name": "Postman",
+            "description": "Postman es una aplicación que nos permite realizar pruebas API. Es un cliente HTTP que nos da la posibilidad de testear 'HTTP requests' a través de una interfaz gráfica de usuario, por medio de la cual obtendremos diferentes tipos de respuesta que posteriormente deberán ser validados.",
+            "category": "other",
+            "os": [{
+                    "type": "Windows",
+                    "arch": "x64",
+                    "download": "https://dl.pstmn.io/download/latest/win64"
+                },
+                {
+                    "type": "macOS",
+                    "download": "https://dl.pstmn.io/download/latest/osx_arm64"
+                },
+                {
+                    "type": "Linux",
+                    "arch": "x64",
+                    "download": "https://dl.pstmn.io/download/latest/linux64"
+                }
+            ],
+            "resources": [{
+                "name": "Más información",
+                "website": "https://learning.postman.com/docs/getting-started/introduction/"
+            }]
+        }
+    ]
+}
