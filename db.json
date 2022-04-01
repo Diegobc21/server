@@ -3,7 +3,10 @@
             "id": 1,
             "name": "Apache Netbeans 12.2",
             "description": "NetBeans es un entorno de desarrollo integrado libre, hecho principalmente para el lenguaje de programación Java.",
-            "category": "ide",
+            "categories": [
+                "ide",
+                "java"
+            ],
             "os": [{
                     "type": "Windows",
                     "arch": "x64",
@@ -32,7 +35,9 @@
             "id": 2,
             "name": "Visual Studio Code",
             "description": "Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows, Linux, macOS y Web. Incluye soporte para la depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código.",
-            "category": "ide",
+            "categories": [
+                "ide"
+            ],
             "os": [{
                     "type": "Windows",
                     "arch": "x64 & x32",
@@ -56,7 +61,10 @@
             "id": 3,
             "name": "Postman",
             "description": "Postman es una aplicación que nos permite realizar pruebas API. Es un cliente HTTP que nos da la posibilidad de testear 'HTTP requests' a través de una interfaz gráfica de usuario, por medio de la cual obtendremos diferentes tipos de respuesta que posteriormente deberán ser validados.",
-            "category": "other",
+            "categories": [
+                "api",
+                "other"
+            ],
             "os": [{
                     "type": "Windows",
                     "arch": "x64",
@@ -76,6 +84,19 @@
                 "name": "Más información",
                 "website": "https://learning.postman.com/docs/getting-started/introduction/"
             }]
+        }
+    ],
+    "categories": [{
+            "id": 1,
+            "name": "ide"
+        },
+        {
+            "id": 2,
+            "name": "java"
+        },
+        {
+            "id": 3,
+            "name": "other"
         }
     ]
 }
