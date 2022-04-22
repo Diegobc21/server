@@ -1,7 +1,7 @@
 {
     "software": [{
             "id": 1,
-            "name": "Apache Netbeans 12.2",
+            "name": "Apache Netbeans 13",
             "description": "NetBeans es un entorno de desarrollo integrado libre, hecho principalmente para el lenguaje de programación Java.",
             "categories": [
                 "ide",
@@ -22,13 +22,18 @@
                 }
             ],
             "resources": [{
-                    "name": "Más información",
-                    "website": "https://netbeans.apache.org/download/nb122/nb122.html"
+                    "name": "Get Java JDK",
+                    "website": "https://www.oracle.com/java/technologies/downloads/"
                 },
                 {
                     "name": "Cygwin",
                     "website": "https://www.cygwin.com/"
+                },
+                {
+                    "name": "Más información",
+                    "website": "https://netbeans.apache.org/download/nb122/nb122.html"
                 }
+
             ]
         },
         {
