@@ -10,15 +10,15 @@
             "os": [{
                     "type": "Windows",
                     "arch": "x64",
-                    "download": "https://archive.apache.org/dist/netbeans/netbeans/12.2/Apache-NetBeans-12.2-bin-windows-x64.exe"
+                    "download": "https://downloads.apache.org/netbeans/netbeans-installers/13/Apache-NetBeans-13-bin-windows-x64.exe"
                 },
                 {
                     "type": "Linux",
-                    "download": "https://archive.apache.org/dist/netbeans/netbeans/12.2/Apache-NetBeans-12.2-bin-linux-x64.sh"
+                    "download": "https://downloads.apache.org/netbeans/netbeans-installers/13/Apache-NetBeans-13-bin-linux-x64.sh"
                 },
                 {
                     "type": "macOS",
-                    "download": "https://archive.apache.org/dist/netbeans/netbeans/12.2/Apache-NetBeans-12.2-bin-macosx.dmg"
+                    "download": "https://archive.apache.org/dist/netbeans/netbeans-installers/13/Apache-NetBeans-13-bin-macosx.dmg"
                 }
             ],
             "resources": [{
